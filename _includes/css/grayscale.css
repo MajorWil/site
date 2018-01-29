@@ -36,12 +36,21 @@ p {
     line-height: 1.5;
 }
 
+.more-link {
+    font-size: 14px;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
     }
+}
+.service-list {
+    font-size: 18px;
+    text-align: left;
+    padding: 0 40px;
 }
 
 a {
@@ -70,7 +79,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -253,6 +262,42 @@ a:focus {
 }
 
 .download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.coaching-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.arrangement-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.mastering-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
